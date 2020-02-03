@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>by.azzibom.utils.gui.swing</groupId>
+  <artifactId>swing-localizer</artifactId>
+  <version>1.0</version>
+
+  <description>Localization standard Java Swing components</description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <developers>
+    <developer>
+      <name>Ihar Misevich</name>
+      <email>iharmisevich@yandex.by</email>
+      <roles>
+        <role>maintainer</role>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/azzibom/swing-localizer</url>
+    </repository>
+  </distributionManagement>
+</project>
