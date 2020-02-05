@@ -1,4 +1,4 @@
-package by.azzibom.utils.swing;
+package by.azzibom.utils.gui.swing;
 
 import javax.swing.*;
 import java.util.ServiceLoader;

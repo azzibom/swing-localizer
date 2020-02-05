@@ -1,4 +1,4 @@
-package by.azzibom.utils.swing;
+package by.azzibom.utils.gui.swing;
 
 /**
  * интерфейс для загрузки {@link SwingLocalizer}ом

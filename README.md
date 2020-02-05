@@ -8,11 +8,12 @@ Localization standard Java Swing components
     - or other way
   - add ```swing_<lang>_<country>.properties``` file with your localization in ```resources``` folder in your project.
     - or create your custom ```BundleStore``` with use [SPI](https://en.wikipedia.org/wiki/Service_provider_interface)
+    - P.S. Russian localization added by default
   - call static method ```localize``` from class ```SwingLocalizer```.
   
     Examples: 
     ```java
-    import by.azzibom.utils.swing.SwingLocalizer;
+    import by.azzibom.utils.gui.swing.SwingLocalizer;
     public class Main {
       static {
         SwingLocalizer.localize();
@@ -24,7 +25,7 @@ Localization standard Java Swing components
     ```
     or
     ```java
-    import by.azzibom.utils.swing.SwingLocalizer;
+    import by.azzibom.utils.gui.swing.SwingLocalizer;
     public class Main {
       public static void main(String... args) {
         SwingLocalizer.localize();

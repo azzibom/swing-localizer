@@ -1,4 +1,4 @@
-package by.azzibom.utils.swing;
+package by.azzibom.utils.gui.swing;
 
 /**
  * реализация по умолчанию, возвращает единтвенное имя бандра локазизации.
