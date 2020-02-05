@@ -4,6 +4,8 @@ Localization standard Java Swing components
 ## Using
 
   - include library in your project
+    - as [maven dependency](https://github.com/azzibom/swing-localizer/packages)
+    - or other way
   - add ```swing_<lang>_<country>.properties``` file with your localization in ```resources``` folder in your project.
     - or create your custom ```BundleStore``` with use [SPI](https://en.wikipedia.org/wiki/Service_provider_interface)
   - call static method ```localize``` from class ```SwingLocalizer```.
